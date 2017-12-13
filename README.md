@@ -24,7 +24,7 @@ License: GPLv3
 
 Social: [**Gitter chat**](https://gitter.im/mindfulness-at-the-computer/Lobby)
 
-## [Developer documentation](developer.md)
+## [Developer documentation](docs/developer.md)
 
 Most documents are located in the [docs directory](docs/). There's also a [wiki](wiki) that is open for editing
 
