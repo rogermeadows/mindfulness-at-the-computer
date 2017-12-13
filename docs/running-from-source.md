@@ -4,7 +4,7 @@
 If you don't see a download option for the platform of your choice, or you just prefer running from source for other reasons you can follow these steps to start the application:
 
 1. Download the Python 3.x installation package for your platform: https://www.python.org/downloads/
-2. [Configure your development environment](docs/configure_dev_env.md)
+2. [Configure your development environment](configure_dev_env.md)
 3. Download the project files from GitHub, by clicking on *the green "Clone or download" button* and then "Download ZIP"
 4. Unzip the downloaded file
 5. Change directory to where the software files have been extracted
