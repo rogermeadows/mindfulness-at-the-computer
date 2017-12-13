@@ -11,7 +11,7 @@
 
 ## Making Code Changes
 
-## [Running from source](docs/running-from-source.md)
+## [Running from source](running-from-source.md)
 
 ## Useful links
 * Link to [Travis CI Build and Test Results](https://travis-ci.org/SunyataZero/mindfulness-at-the-computer)
