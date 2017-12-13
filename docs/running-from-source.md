@@ -4,13 +4,11 @@
 If you don't see a download option for the platform of your choice, or you just prefer running from source for other reasons you can follow these steps to start the application:
 
 1. Download the Python 3.x installation package for your platform: https://www.python.org/downloads/
-2. Install Python 3.x
-3. On the command line: `pip install --upgrade pip` (On Ubuntu use `sudo -H` and `pip3` instead of `pip`)
-4. On the command line: `pip install PyQt5` (On Ubuntu use `sudo -H` and `pip3` instead of `pip`)
-5. Download the project files from GitHub, by clicking on *the green "Clone or download" button* and then "Download ZIP"
-6. Unzip the downloaded file
-7. Change directory to where the software files have been extracted
-8. Type and run `python mindfulness-at-the-computer.py` on Windows or `python3 mindfulness-at-the-computer.py`on GNU/Linux systems
+2. [Configure your development environment](docs/configure_dev_env.md)
+3. Download the project files from GitHub, by clicking on *the green "Clone or download" button* and then "Download ZIP"
+4. Unzip the downloaded file
+5. Change directory to where the software files have been extracted
+6. Type and run `python mindfulness-at-the-computer.py` on Windows or `python3 mindfulness-at-the-computer.py`on GNU/Linux systems
 
 NOTE:
 If you are running **MacOS** you need to install growl to get the breathing reminder notifications.
