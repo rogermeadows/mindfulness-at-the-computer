@@ -32,6 +32,8 @@ People contributing to the project are unpaid, it's entirely a volunteer effort.
 
 This application is Free Libre Open Source Software. The software license is GPLv3
 
+[Developer Documentation](docs/developer.md)
+
 ## How do I get an overview of the project?
 
 * Read about the [tech architecture](docs/tech-architecture.md) for the application
