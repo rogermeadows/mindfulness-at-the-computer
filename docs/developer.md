@@ -12,25 +12,26 @@
 ## Making Code Changes
 *. Find the issue you on which you will work. or create an issue to describe the work you plan to do.
 * Sync with upstream and create a local branch for working on the issue. For example you might call the new branch `work_issue_96`.
-* Simple Development Loop (assumes automatic rebase on pull request merge will be a fast-forward merge)
+* Simple Development Loop
+   Assumes automatic rebase on pull request merge not have any conflicts (it will be a fast-forward merge).
 
-   1. Make code changes, add new tests or fix tests that need to change.
-   2. Make sure automated tests pass locally.
-   3. Commit changes and push to your fork (`git push origin work_issue_96`).
-   4. Verify that Travis CI tests on your fork passed.
-   6. If more changes are needed, go to step 1, otherwise 
-   5. Sync with upstream and push to origin and verify Travis CI tests still pass.
-   6. Create a `pull request` to have the branch in your fork merged onto the main repository `master` branch.
+ 1. Make code changes, add new tests or fix tests that need to change.
+ 2. Make sure automated tests pass locally.
+ 3. Commit changes and push to your fork (`git push origin work_issue_96`).
+ 4. Verify that Travis CI tests on your fork passed.
+ 6. If more changes are needed, go to step 1, otherwise 
+ 5. Sync with upstream and push to origin and verify Travis CI tests still pass.
+ 6. Create a `pull request` to have the branch in your fork merged onto the main repository `master` branch.
 
-* Development Loop with local rebase (perfoms local rebase regularly to ensure pull request merge will be fast-forward
-  merge)
+* Development Loop with local rebase
+   Perfom local rebase regularly so that any conflicts are handled before requesting a pull request.
 
-   1. Make code changes, add new tests or fix tests that need to change.
-   2. Make sure automated tests pass locally.
-   3. Commit changes and push to your fork (`git push origin work_issue_96`).
-   4. Verify that Travis CI tests on your fork passed.
-   5. Sync with upstream, rebase onto master, push to origin and verify Travis CI tests still pass.
-   6. If more changes are needed, go to step 1, otherwise create a `pull request` to have the branch in your fork merged onto the main repository `master` branch.
+ 1. Make code changes, add new tests or fix tests that need to change.
+ 2. Make sure automated tests pass locally.
+ 3. Commit changes and push to your fork (`git push origin work_issue_96`).
+ 4. Verify that Travis CI tests on your fork passed.
+ 5. Sync with upstream, rebase onto master, push to origin and verify Travis CI tests still pass.
+ 6. If more changes are needed, go to step 1, otherwise create a `pull request` to have the branch in your fork merged onto the main repository `master` branch.
 
 ## [Running from source](running-from-source.md)
 
