@@ -1,6 +1,7 @@
 # Developer Documentation 
 
 ## Setting up your development repository
+
 * Login to your github account and fork the main repository [mindfulness-at-the-computer](https://github.com/SunyataZero/mindfulness-at-the-computer)
 * Make a clone of your new fork on your development environment and add remote `upstream` pointing to `git@github.com:SunyataZero/mindfulness-at-the-computer.git`. 
 * [Configure your development environment](docs/configure_dev_env.md) to support running the application locally.
@@ -9,6 +10,7 @@
 * When you see all tests have passed, you are ready to start making code changes.
 
 ## Making Code Changes
+
 *. Find the issue you on which you will work. or create an issue to describe the work you plan to do.
 * Sync with upstream and create a local branch for working on the issue. For example you might call the new branch `work_issue_96`.
 * Simple Development Loop
